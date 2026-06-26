@@ -1,4 +1,0 @@
-[submodule "protocol"]
-	path = protocol
-	url = https://github.com/livekit/protocol
-	branch = main
