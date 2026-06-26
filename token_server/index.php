@@ -43,8 +43,8 @@ if (!$room || !$identity) {
     exit;
 }
 
-$apiKey = $_ENV['LIVEKIT_API_KEY'] ?? '';
-$apiSecret = $_ENV['LIVEKIT_API_SECRET'] ?? '';
+$apiKey = $_ENV['LIVEKIT_API_KEY'] ?? 'APIgfKxn7fqVq4F';
+$apiSecret = $_ENV['LIVEKIT_API_SECRET'] ?? 'tCFCTxccs4xeVhZ7ldLAgURhp9ciuj6z7PoqUte2fxsB';
 
 if ($apiKey === '' || $apiSecret === '') {
     http_response_code(500);
