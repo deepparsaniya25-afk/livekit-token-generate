@@ -1,0 +1,10 @@
+# Environment files
+.env
+**/.env
+
+# PHP
+token_server/vendor/
+
+# Flutter
+video_call_app/build/
+video_call_app/.dart_tool/
